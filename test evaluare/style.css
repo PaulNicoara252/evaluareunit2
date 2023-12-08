@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'RubikBubbles';
+  src: url('RubikBubbles-Regular.ttf') format('truetype');
+  
+}
+body {
+  font-family: 'RubikBubbles', serif;
+  color: black;
+   margin: 0;
+  padding: 0;
+   background: linear-gradient(to bottom, #ff6600, #00ccff, #99ff33);
+   font-size: 30px;
+   position: relative;
+}
+h1 {
+   font-family: 'RubikBubbles-Bold', sans-serif;
+   color: #d34c16;
+   font-size: 50px;
+   border: 6px solid #333; 
+   display: inline-block;
+   background: #b99b9a;
+   
+}
+
+ h2, h4,  h5 {
+  font-family: 'RubikBubbles-Bold', sans-serif;
+  color: purple;
+   font-size: 50px;
+}
+
+h3{
+	font-family: 'RubikBubbles', sans-serif;
+  color: blue;
+   font-size: 50px;
+    text-align: center;
+}
+h2{
+text-align: right;
+padding-right: 300px;
+}
+
+  .poza-speciala {
+  width: 500px; 
+  height: auto; 
+  border: 6px solid #333; 
+  border-radius: 50px; 
+  filter: whitescale(90%); 
+  opacity: 0.9; 
+   float: left;
+   margin-right: 20px;
+}
+
+table {
+  text-align: right; 
+  width: 60%; 
+  margin-top: 20px;
+  margin-left: auto; 
+  margin-right: 40px; 
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+th, td {
+  border: 7px solid #d34916;
+  padding: 8px;
+  text-align: left; 
+}
+th {
+	
+}
+
+ul {
+    list-style-type: circle;
+  }
+  
+  .sectie {
+      margin: 100px; 
+	  border: 5px solid #000;
+	  overflow: hidden;
+	 border-radius: 40px; 
+    }
+
+    
+    .sectie img {
+     width: auto;
+      height: 100%;
+      max-width: 100%;
+      object-fit: cover; 
+	   width: 100%; 
+       height: auto;
+    }
+	slideshow{
+    display: flex; 
+    overflow: hidden;
+    max-width: 600px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.mySlides {
+    display: none;
+margin-riht:auto;
+    margin-left:auto;
+}
+	#startButton {
+ display: inline-block;
+    width: 304px;
+    padding: 3px 30px;
+    background: linear-gradient(to right, #f2b16b, #f7d040);
+    color: #fff;
+    font-family: Georgia;
+    font-style: serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+	.central{
+    margin-right: auto; 
+    margin-left: auto; 
+    max-width: 80%;
+    padding: 20px;
+    background: linear-gradient(to right, rgba(61, 145, 255, 60%), rgba(17, 3, 140, 60%));
+    border-radius: 10px;
+}
+	
+	.container{
+	width: 100%;
+	height:100vh;
+	background: #222;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	}
+	.swiper{
+		width: 80%;
+		height:fit-content;
+	}
+	.swiper-slide img{
+		width:100;
+	}
+	
+	
+	.swiper .swiper-button-prev, .swiper .swiper-button-next{
+		color: #fff;
+    }
+	.swiper .swiper-pagination-bullet-active{
+		background: #fff;
+    }
+	
+	
+	

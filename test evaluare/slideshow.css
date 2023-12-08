@@ -1,0 +1,11 @@
+.slideshow {
+  display: flex;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.slideshow img {
+  width: 100%;
+  transition: opacity 1s ease-in-out;
+}

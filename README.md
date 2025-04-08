@@ -1,1 +1,1 @@
-# evaluareunit2
+# Personal site project for Applied Informatics class.
